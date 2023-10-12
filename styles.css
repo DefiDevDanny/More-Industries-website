@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white; /* Set your desired background color */
+}
+
+.web-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#sketch-container {
+    /* Add any specific styles for your sketch container here */
+    
+}
+
+
+
+#generateButton {
+    margin-top: 30px; /* Adjust as needed for spacing */
+    /* margin-left: 20px; */
+    /* Add any specific styles for your button here */
+}
+
+/* Add any specific styles for the "Generate" button here */
+.generate-button {
+    background-color: #000000; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding (top/bottom, left/right) */
+    font-size: 16px; /* Font size */
+    font-family: "Helvetica", sans-serif; /* Specify Helvetica as the font */
+    font-style: italic; /* Set the font style to italic */
+    font-weight: bold;
+    border: none; /* Remove border */
+    border-radius: 10px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: transform 0.2s; /* Add a transition for the transform property */
+}
+
+.generate-button:hover {
+    background-color: white; /* Darker background color on hover */
+    color: black;
+    border: 1px solid black; /* Add a 2px solid black border on hover */
+}
+
+.generate-button:active {
+    transform: scale(0.95); /* Shrink the button on active (pressed) state */
+}
+
+.small-image {
+    width: 200px; /* Set the desired width */
+    height: 50px; /* Maintain aspect ratio */
+}
+
+.toon2 {
+    width: 400px; /* Set the desired width */
+    height: 400px; /* Maintain aspect ratio */
+    position: absolute;
+    left: 850px;
+    top: 350px ;
+}
+
+.toon1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 275px;
+    left: 350px;
+    transform: rotate(4deg);
+
+}
+
+/* Add any specific styles for the "Generate" button here */
+.download-button {
+    background-color: #000000; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding (top/bottom, left/right) */
+    font-size: 16px; /* Font size */
+    font-family: "Helvetica", sans-serif; /* Specify Helvetica as the font */
+    font-style: italic; /* Set the font style to italic */
+    font-weight: bold;
+    border: none; /* Remove border */
+    border-radius: 10px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: transform 0.2s; /* Add a transition for the transform property */
+}
+
+.download-button:hover {
+    background-color: white; /* Darker background color on hover */
+    color: black;
+    border: 1px solid black; /* Add a 2px solid black border on hover */
+}
+
+.download-button:active {
+    transform: scale(0.95); /* Shrink the button on active (pressed) state */
+}
